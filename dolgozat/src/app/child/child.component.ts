@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './child.component.css'
 })
 export class ChildComponent {
+  @Input() childText: string = '';
 
 }

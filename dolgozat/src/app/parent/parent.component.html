@@ -1,1 +1,3 @@
-<p>parent works!</p>
+<h2>Parent Component</h2>
+<input [(ngModel)]="parentText" placeholder="Enter text for child" />
+<app-child [childText]="parentText"></app-child>
